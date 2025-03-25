@@ -1,6 +1,18 @@
 // Esercizio 1 - Palindroma
 // Chiedere all’utente di inserire una parola Creare una funzione per capire se la parola inserita è palindroma
 
+// Definizione di funzione che controlla se la parola è palindroma
+function checkPalindroma(string){
+    let check = string.split(``).reverse().join(``);
+}
+
+// Permetto all'utente di inserire la parola
+let word = prompt(`Inserisci la parola`);
+
+// Eseguo la funzione
+checkPalindroma(word);
+
+
 
 
 // Esercizio 2 - Pari e Dispari

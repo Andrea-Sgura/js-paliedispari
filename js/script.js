@@ -4,6 +4,14 @@
 // Definizione di funzione che controlla se la parola è palindroma
 function checkPalindroma(string){
     let check = string.split(``).reverse().join(``);
+
+    // Controllo se la parola inserita è uguale a quella generata.
+    if(string === check){
+       console.log(`La parola inserita è palindroma`)
+    }
+    else{
+       console.log(`La parola inserita non è palindroma`)
+    }
 }
 
 // Permetto all'utente di inserire la parola

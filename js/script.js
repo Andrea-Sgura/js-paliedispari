@@ -31,4 +31,12 @@ function generateRandomNumber(){
     return Math.floor(Math.random() * 5) + 1
 }
 
+// Definizione di funzione per determinare se la somma del numero random e il numero inserito è pari o dispari.
+function checkEvenOrOdd(number){
+    if(number % 2 === 0){
+        return `pari`;
+    }
+
+    return `dispari`;
+}
 

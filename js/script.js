@@ -40,3 +40,17 @@ function checkEvenOrOdd(number){
     return `dispari`;
 }
 
+// Inserisco il numero
+let userNumber = parseInt(prompt(`Inserisco il numero`));
+
+// Genero il numero del pc
+let pcNumber = generateRandomNumber();
+
+// Sommo i due numeri
+let sum = userNumber + pcNumber;
+
+let checkWinner = checkEvenOrOdd(sum);
+console.log(checkWinner);
+
+
+

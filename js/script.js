@@ -43,6 +43,9 @@ function checkEvenOrOdd(number){
 // Inserisco il numero
 let userNumber = parseInt(prompt(`Inserisco il numero`));
 
+// Permetto all'utente di inserire la stringa pari o dispari
+let userChoice = prompt(`Inserisci la parola pari o dispari`)
+
 // Genero il numero del pc
 let pcNumber = generateRandomNumber();
 
@@ -52,7 +55,13 @@ console.log(sum);
 
 // Eseguo la funzione
 let checkWinner = checkEvenOrOdd(sum);
-console.log(checkWinner);
+
+if(checkWinner === userChoice){
+    console.log(`Hai vinto`);
+}
+else{
+    console.log(`Hai perso`);
+}
 
 
 

@@ -48,7 +48,9 @@ let pcNumber = generateRandomNumber();
 
 // Sommo i due numeri
 let sum = userNumber + pcNumber;
+console.log(sum);
 
+// Eseguo la funzione
 let checkWinner = checkEvenOrOdd(sum);
 console.log(checkWinner);
 
